@@ -1,0 +1,10 @@
+[{
+    "caption": "WordPress Developer",
+    "children": [{
+        "command": "wordpress_developer_resources_search_selection",
+        "caption": "Search Selection"
+    }, {
+        "command": "wordpress_developer_resources_search_from_input",
+        "caption": "Search From Input"
+    }]
+}]

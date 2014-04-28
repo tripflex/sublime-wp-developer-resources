@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "WordPress Developer: Search Selection",
+        "command": "wordpress_developer_resources_search_selection"
+    },
+    {
+        "caption": "WordPress Developer: Open Function Reference",
+        "command": "wordpress_developer_resources_open_selection"
+    },
+    {
+        "caption": "WordPress Developer: Search from Input",
+        "command": "wordpress_developer_resources_search_from_input"
+    }
+]

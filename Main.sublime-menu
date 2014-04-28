@@ -1,0 +1,17 @@
+[{
+    "caption": "Tools",
+    "mnemonic": "t",
+    "id": "tools",
+    "children": [{
+        "caption": "WordPress Developer Resources",
+        "mnemonic": "f",
+        "id": "wordpress_developer_resources",
+        "children": [{
+            "command": "wordpress_developer_resources_search_selection",
+            "caption": "Search Selection"
+        }, {
+            "command": "wordpress_developer_resources_search_from_input",
+            "caption": "Search From Input"
+        }]
+    }]
+}]
