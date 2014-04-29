@@ -1,4 +1,4 @@
-## Wordpress Developer Resources Sublime Text 3 Plugin
+## Wordpress Developer Resources Sublime Text 2/3 Plugin
 
 Right Click Menu | Tools Menu | Command Menu
 --- | --- | ---
