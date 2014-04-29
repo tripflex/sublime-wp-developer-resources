@@ -3,7 +3,7 @@
 # @Author: Myles McNamara, Matthias Krok, Eric Martel
 # @Date:   2014-04-28 01:16:04
 # @Last Modified by:   Myles McNamara
-# @Last Modified time: 2014-04-28 19:00:25
+# @Last Modified time: 2014-04-28 19:34:52
 # @Author URL: http://smyl.es
 # @Plugin URL: https://github.com/tripflex/sublime-wp-developer-resources
 # @License: GPL 3+
@@ -56,6 +56,17 @@ class WordpressDeveloperResourcesSearchSelectionCommand(sublime_plugin.TextComma
 
             text = self.view.substr(selection)
             SearchWPDeveloper(text)
+
+class WordpressDeveloperResourcesSearchSelectionCodexCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        for selection in self.view.sel():
+            # if the user didn't select anything, search the currently highlighted word
+            if selection.empty():
+                selection = self.view.word(selection)
+
+            text = self.view.substr(selection)
+            SearchWPCodex(text)
+
 
 class WordpressDeveloperResourcesSearchFromInputCommand(sublime_plugin.WindowCommand):
     def run(self):

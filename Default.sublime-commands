@@ -5,10 +5,14 @@
     },
     {
         "caption": "WordPress Developer: Open Function Reference",
-        "command": "wordpress_developer_resources_open_selection"
+        "command": "wordpress_developer_resources_function_reference"
     },
     {
         "caption": "WordPress Developer: Search from Input",
         "command": "wordpress_developer_resources_search_from_input"
+    },
+    {
+        "caption": "WordPress Developer: Search Selection (Codex)",
+        "command": "wordpress_developer_resources_search_selection_codex"
     }
 ]

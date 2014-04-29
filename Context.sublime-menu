@@ -1,10 +1,23 @@
-[{
-    "caption": "WordPress Developer",
-    "children": [{
-        "command": "wordpress_developer_resources_search_selection",
-        "caption": "Search Selection"
-    }, {
-        "command": "wordpress_developer_resources_search_from_input",
-        "caption": "Search From Input"
-    }]
-}]
+[
+    {
+        "caption": "WP Dev Resources",
+        "children": [
+            {
+                "caption": "Search Selection",
+                "command": "wordpress_developer_resources_search_selection"
+            },
+            {
+                "caption": "Search From Input",
+                "command": "wordpress_developer_resources_search_from_input"
+            },
+            {
+                "caption": "Function Reference",
+                "command": "wordpress_developer_resources_function_reference"
+            },
+            {
+                "caption": "Search Selection (Codex)",
+                "command": "wordpress_developer_resources_search_selection_codex"
+            }
+        ]
+    }
+]

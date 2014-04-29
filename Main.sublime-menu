@@ -1,17 +1,32 @@
-[{
-    "caption": "Tools",
-    "mnemonic": "t",
-    "id": "tools",
-    "children": [{
-        "caption": "WordPress Developer Resources",
-        "mnemonic": "f",
-        "id": "wordpress_developer_resources",
-        "children": [{
-            "command": "wordpress_developer_resources_search_selection",
-            "caption": "Search Selection"
-        }, {
-            "command": "wordpress_developer_resources_search_from_input",
-            "caption": "Search From Input"
-        }]
-    }]
-}]
+[
+    {
+        "caption": "Tools",
+        "children": [
+            {
+                "caption": "WordPress Developer Resources",
+                "children": [
+                    {
+                        "caption": "Search Selection",
+                        "command": "wordpress_developer_resources_search_selection"
+                    },
+                    {
+                        "caption": "Search From Input",
+                        "command": "wordpress_developer_resources_search_from_input"
+                    },
+                    {
+                        "caption": "Function Reference",
+                        "command": "wordpress_developer_resources_function_reference"
+                    },
+                    {
+                        "caption": "Search Selection (Codex)",
+                        "command": "wordpress_developer_resources_search_selection_codex"
+                    }
+                ],
+                "id": "wordpress_developer_resources",
+                "mnemonic": "f"
+            }
+        ],
+        "id": "tools",
+        "mnemonic": "t"
+    }
+]
