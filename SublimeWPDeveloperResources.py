@@ -3,7 +3,7 @@
 # @Author: Myles McNamara, Matthias Krok, Eric Martel
 # @Date:   2014-04-28 01:16:04
 # @Last Modified by:   Myles McNamara
-# @Last Modified time: 2014-04-28 18:42:59
+# @Last Modified time: 2014-04-28 19:00:25
 # @Author URL: http://smyl.es
 # @Plugin URL: https://github.com/tripflex/sublime-wp-developer-resources
 # @License: GPL 3+
@@ -37,7 +37,7 @@ def OpenWPDeveloperFunctionReference(text):
     url = 'http://developer.wordpress.org/reference/functions/' + text.replace(' ','%20')
     OpenInBrowser(url)
 
-class WordpressDeveloperResourcesOpenSelectionCommand(sublime_plugin.TextCommand):
+class WordpressDeveloperResourcesFunctionReferenceCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         for selection in self.view.sel():
             # if the user didn't select anything, search the currently highlighted word
